@@ -16,6 +16,6 @@ public class FindAny {
             System.out.println(optional.get());
         }
 
-        optional.ifPresent(x->x.length());
+        optional.ifPresent(x -> x.length());
     }
 }
